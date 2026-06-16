@@ -1,0 +1,4 @@
+interface:
+  display_name: "newtype AI Stack 投资框架"
+  short_description: "用七层产业链框架分析 AI 公司、新闻、稀缺性、终局判断和组合分仓"
+  default_prompt: "使用 $newtype-ai-stack,基于 newtype AI Stack 方法论分析以下 AI 产业链投资问题:先判断需要使用七层定位、新闻翻译、稀缺性迁移、过渡期 vs 终局,还是组合分仓框架,再给出结论、证据、验证清单和风险提示。"
