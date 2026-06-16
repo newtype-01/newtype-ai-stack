@@ -1,6 +1,6 @@
 # newtype AI Stack
 
-`newtype-ai-stack` is a Codex Skill for analyzing AI industry-chain investment questions with the **newtype AI Stack** methodology.
+`newtype-ai-stack` is a lightweight methodology toolkit for analyzing AI industry-chain investment questions with the **newtype AI Stack** framework.
 
 It turns companies, tickers, technologies, industry news, bottlenecks, and portfolio questions into structured research judgments:
 
@@ -10,11 +10,15 @@ It turns companies, tickers, technologies, industry news, bottlenecks, and portf
 - whether a company is a bridge winner or an endgame winner
 - how to organize candidates into Core 7 / N-Stack 20 / Watch List 50
 
-> This Skill provides a research framework only. It is not personalized investment advice.
+It can be used with Codex, ChatGPT, Claude, Gemini, local agents, or any workflow that can load Markdown instructions and reference files.
 
-## Install
+> This toolkit provides a research framework only. It is not personalized investment advice.
 
-Install from GitHub into your local Codex skills directory:
+## Use
+
+You can read `SKILL.md` as the main router and load the relevant method pack from `references/` as needed.
+
+For Codex, install from GitHub into your local skills directory:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
@@ -30,9 +34,11 @@ Then call:
 $newtype-ai-stack
 ```
 
+For other tools, copy or reference `SKILL.md` plus the relevant files under `references/`.
+
 ## What It Covers
 
-The Skill uses one lightweight router in `SKILL.md` and loads detailed method packs from `references/` only when needed.
+The toolkit uses one lightweight router in `SKILL.md` and loads detailed method packs from `references/` only when needed.
 
 | User intent | Method pack |
 | --- | --- |
@@ -96,7 +102,7 @@ $newtype-ai-stack 给 NVDA, TSM, ASML, MU, VRT, CEG, AVGO 做一个 Core / N-Sta
 
 ## Disclaimer
 
-All outputs from this Skill are research judgments based on the newtype AI Stack methodology. They do not constitute personalized investment advice, financial advice, or a recommendation to buy or sell any security.
+All outputs from this toolkit are research judgments based on the newtype AI Stack methodology. They do not constitute personalized investment advice, financial advice, or a recommendation to buy or sell any security.
 
 Users should verify all real-time data independently, including prices, market caps, valuation multiples, financial statements, order books, capacity, market share, regulatory status, and management guidance. Investment decisions should account for personal risk tolerance, capital constraints, tax situation, and professional advice where appropriate.
 

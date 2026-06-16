@@ -1,6 +1,6 @@
 # newtype AI Stack
 
-`newtype-ai-stack` 是一个 Codex Skill,用于基于 **newtype AI Stack 方法论**分析 AI 产业链投资问题。
+`newtype-ai-stack` 是一个轻量级方法论工具包,用于基于 **newtype AI Stack 方法论**分析 AI 产业链投资问题。
 
 它把公司、ticker、技术、产业新闻、瓶颈迁移和组合配置问题,翻译成结构化研究判断:
 
@@ -10,11 +10,15 @@
 - 一家公司是过渡期赢家还是终局赢家
 - 如何把候选公司分成 Core 7 / N-Stack 20 / Watch List 50
 
-> 本 Skill 只提供研究分析框架,不构成个性化投资建议。
+它可以用于 Codex、ChatGPT、Claude、Gemini、本地 agent,或任何能加载 Markdown 指令和参考文件的工作流。
 
-## 安装
+> 本工具包只提供研究分析框架,不构成个性化投资建议。
 
-把仓库安装到本地 Codex skills 目录:
+## 使用
+
+你可以把 `SKILL.md` 当作总入口,再根据任务按需读取 `references/` 里的方法包。
+
+如果用于 Codex,可以把仓库安装到本地 skills 目录:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
@@ -30,9 +34,11 @@ git clone https://github.com/newtype-01/newtype-ai-stack.git \
 $newtype-ai-stack
 ```
 
+如果用于其他工具,复制或引用 `SKILL.md` 以及 `references/` 中相关方法包即可。
+
 ## 能做什么
 
-这个 Skill 使用轻量 `SKILL.md` 作为总入口,根据用户问题按需读取 `references/` 里的方法包,避免一次性加载全部上下文。
+这个工具包使用轻量 `SKILL.md` 作为总入口,根据用户问题按需读取 `references/` 里的方法包,避免一次性加载全部上下文。
 
 | 用户意图 | 方法包 |
 | --- | --- |
@@ -96,7 +102,7 @@ $newtype-ai-stack 给 NVDA, TSM, ASML, MU, VRT, CEG, AVGO 做一个 Core / N-Sta
 
 ## 免责声明
 
-本 Skill 的所有输出均为基于 newtype AI Stack 方法论的研究分析判断,不构成个性化投资建议、财务建议,也不构成任何证券的买入或卖出建议。
+本工具包的所有输出均为基于 newtype AI Stack 方法论的研究分析判断,不构成个性化投资建议、财务建议,也不构成任何证券的买入或卖出建议。
 
 用户应自行验证所有实时数据,包括股价、市值、估值倍数、财报、订单、产能、市场份额、监管状态和管理层指引。具体投资决策应结合个人风险承受能力、资金属性、税务状况,并在必要时咨询合格投资顾问。
 
