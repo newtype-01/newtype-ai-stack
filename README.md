@@ -109,3 +109,9 @@ Users should verify all real-time data independently, including prices, market c
 ## License
 
 MIT
+
+## Links
+
+YouTube: [youtube.com/@huanyihe777](https://www.youtube.com/@huanyihe777)
+Twitter: [x.com/huangyihe](https://x.com/huangyihe)
+Substack: [newtype.pro](https://newtype.pro/)

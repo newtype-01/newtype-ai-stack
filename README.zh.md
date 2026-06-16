@@ -109,3 +109,9 @@ $newtype-ai-stack 给 NVDA, TSM, ASML, MU, VRT, CEG, AVGO 做一个 Core / N-Sta
 ## License
 
 MIT
+
+## Links
+
+YouTube: [youtube.com/@huanyihe777](https://www.youtube.com/@huanyihe777)
+Twitter: [x.com/huangyihe](https://x.com/huangyihe)
+Substack: [newtype.pro](https://newtype.pro/)
